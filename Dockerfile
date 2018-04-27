@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y python-software-properties software-properties-common locales &&\
     update-locale LANG=C.UTF-8 LC_MESSAGES=POSIX && \
     locale-gen en_US.UTF-8 && \
-    dpkg-reconfigure locales
+    dpkg-reconfigure --frontend noninteractive locales
 RUN apt-get update && \
     apt-get install -y supervisor curl unzip pwgen inotify-tools dnsutils vim git wget python-pip sudo logrotate
 
