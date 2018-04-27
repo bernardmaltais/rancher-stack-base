@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Sebastien LANGOUREAUX <linuxworkgroup@hotmail.com>
+# MAINTAINER Sebastien LANGOUREAUX <linuxworkgroup@hotmail.com>
 
 # Install some usefull package
 RUN apt-get update && \
