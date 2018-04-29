@@ -21,7 +21,7 @@ ADD assets/setup/logrotate-supervisor.conf /etc/logrotate.d/supervisord
 ADD assets/setup/supervisor-cron.conf /etc/supervisor/conf.d/cron.conf
 
 # Add syslog group for logrotate
-RUN groupadd syslog
+# RUN groupadd syslog
 
 
 
